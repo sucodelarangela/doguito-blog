@@ -5,6 +5,16 @@ import { corContrasteClaro, sombra, fonteFamiliaTituloPagina, fonteTamanhoTitulo
 export const Container = styled.div`
 padding-right: 1rem;
 padding-left: 1rem;
+
+@media screen and (min-width: 800px) {
+padding-right: 2.5rem;
+padding-left: 2.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+    padding-left: calc((100vw - 900px)/2);
+    padding-right: calc((100vw - 900px)/2);
+}
 `;
 
 export const Cartao = styled.article`

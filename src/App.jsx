@@ -5,6 +5,7 @@ import { GlobalStyle } from './assets/css/GlobalStyles';
 
 // pages
 import Home from './paginas/Home';
+import NotFound from './paginas/NotFound';
 import Sobre from './paginas/Sobre';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/sobre' element={<Sobre />} />
+                <Route path='*' element={<NotFound />} />
             </Routes>
         </Router>
     );
