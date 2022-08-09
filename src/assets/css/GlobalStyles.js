@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { corContrasteClaro, corContrasteEscuro, corDivisao, corPrimaria, corSecundaria, fonteFamiliaCorpo, fontePesoMenuCabecalhoItem, fonteTamanhoLogo, fonteTamanhoMenuCabecalhoItem, sombra } from "./UI/variaveis";
+import { corContrasteClaro, corContrasteEscuro, corDivisao, corPrimaria, corSecundaria, fonteFamiliaCorpo, fonteFamiliaLogo, fontePesoMenuCabecalhoItem, fonteTamanhoLogo, fonteTamanhoMenuCabecalhoItem, sombra } from "./UI/variaveis";
 import menuIcon from '../img/menu.svg';
 
 export const GlobalStyle = createGlobalStyle`
@@ -68,8 +68,9 @@ body {
 }
 
 .cabecalho__titulo {
-    font-family: ${fonteTamanhoLogo};
+    font-family: ${fonteFamiliaLogo};
     font-size: ${fonteTamanhoLogo};
+    color: ${corContrasteEscuro};
     margin-left: 0.5rem;
 }
 
@@ -121,6 +122,7 @@ body {
     padding-left: 1rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid ${corDivisao};
+    color: ${corContrasteEscuro};
 }
 
 .menu-item--entrar {
@@ -145,9 +147,6 @@ body {
 		padding-left: 2.5rem;	
 	}
 
-    // ${fonteTamanhoLogo} = 2.5rem
-    // ${fonteTamanhoMenuCabecalhoItem} = 1rem
-
 	.cabecalho {
         grid-template-areas: 'menu logo .';
         height: 6.75rem;
@@ -155,6 +154,10 @@ body {
 
     .cabecalho-container {
         grid-area: logo;
+    }
+
+    .cabecalho__titulo {
+        font-size: 2.5rem;
     }
 
     .menu-hamburguer {
@@ -167,6 +170,7 @@ body {
         width: fit-content;
         height: fit-content;
         grid-area: menu;
+        font-size: 1rem;
     }
 
     .menu-cabecalho__fechar {
