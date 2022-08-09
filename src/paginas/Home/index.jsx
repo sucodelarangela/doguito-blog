@@ -23,6 +23,7 @@ const Home = () => {
       <Container>
         <TituloPagina>Pet notícias</TituloPagina>
       </Container>
+      {/* O /posts vem da url do json-server */}
       <ListaPost url={'/posts'} />
     </main>
   );

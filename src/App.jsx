@@ -7,6 +7,7 @@ import Cabecalho from './components/Cabecalho';
 // pages
 import Home from './paginas/Home';
 import NotFound from './paginas/NotFound';
+import Post from './paginas/Post';
 import Sobre from './paginas/Sobre';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/sobre' element={<Sobre />} />
+                <Route path='/posts/:id' element={<Post />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </Router>
