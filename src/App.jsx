@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 // estilos
 import { GlobalStyle } from './assets/css/GlobalStyles';
 
@@ -6,21 +8,15 @@ import Home from './paginas/Home';
 import Sobre from './paginas/Sobre';
 
 function App() {
-  const Router = () => {
-    const location = window.location.pathname;
-    if (location === '/sobre') {
-      return <Sobre />;
-    } else {
-      return <Home />;
-    }
-  };
-
-  return (
-    <>
-      <GlobalStyle />
-      {Router()}
-    </>
-  );
+    return (
+        <Router>
+            <GlobalStyle />
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/sobre' element={<Sobre />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
