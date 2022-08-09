@@ -1,4 +1,5 @@
-import './assets/css/base/base.css';
+// estilos
+import { GlobalStyle } from './assets/css/GlobalStyles';
 
 // pages
 import Home from './paginas/Home';
@@ -13,8 +14,10 @@ function App() {
       return <Home />;
     }
   };
+
   return (
     <>
+      <GlobalStyle />
       {Router()}
     </>
   );

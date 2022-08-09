@@ -1,22 +1,13 @@
-.cartao {
-    background-color: var(--cor-contraste-claro);
-    border-radius: 10px;
-    box-shadow: var(--sombra);
-    width: 100%;
-    max-width: 45rem;
-    padding: 1.75rem;
-    box-sizing: border-box;
-    margin-bottom: 1rem;
-}
-
+/* CartaoTitulo em Home
 .cartao__titulo {
     font-size: var(--fonte-tamanho-cartao-titulo);
     margin-bottom: 1rem;
-}
+} */
 
+/* CartaoTexto em Home
 .cartao__texto {
     line-height: 1.2rem;
-}
+} */
 
 .cartao-post {
     background-color: var(--cor-contraste-claro);
@@ -54,7 +45,7 @@
     align-items: center;
 }
 
-@media(min-width: 900px) {
+@media (min-width: 900px) {
     .posts {
         align-items: stretch;
         flex-direction: row;
