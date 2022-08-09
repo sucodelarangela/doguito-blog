@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { corContrasteClaro, corContrasteEscuro, corDivisao, corPrimaria, corSecundaria, fonteFamiliaCorpo, fonteFamiliaLogo, fontePesoMenuCabecalhoItem, fonteTamanhoLogo, fonteTamanhoMenuCabecalhoItem, sombra } from "./UI/variaveis";
+import { corCategoriaBemEstar, corCategoriaComportamento, corContrasteClaro, corContrasteEscuro, corDivisao, corPrimaria, corSecundaria, fonteFamiliaCorpo, fonteFamiliaLogo, fontePesoMenuCabecalhoItem, fonteTamanhoLogo, fonteTamanhoMenuCabecalhoItem, sombra } from "./UI/variaveis";
 import menuIcon from '../img/menu.svg';
 
 export const GlobalStyle = createGlobalStyle`
@@ -139,6 +139,26 @@ body {
 
 .menu-cabecalho--ativo + .menu-cabecalho-background {
     left: 0;
+}
+
+.cartao-post {
+    background-color: ${corContrasteClaro};
+    border-radius: 10px;
+    box-shadow: ${sombra};
+    width: 100%;
+    max-width: 25rem;
+    padding: 1rem 2rem 2rem;
+    box-sizing: border-box;
+    margin-bottom: 2.25rem;
+    border-top: 1rem solid;
+}
+
+.cartao-post--bem-estar {
+    border-color: ${corCategoriaBemEstar};
+}
+
+.cartao-post--comportamento {
+    border-color: ${corCategoriaComportamento};
 }
 
 @media(min-width: 800px) {
