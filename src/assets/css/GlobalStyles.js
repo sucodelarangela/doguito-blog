@@ -161,6 +161,16 @@ body {
     border-color: ${corCategoriaComportamento};
 }
 
+.lista-categorias__categoria--bem-estar {
+    color: ${corContrasteClaro};
+    background-color: ${corCategoriaBemEstar};
+}
+
+.lista-categorias__categoria--comportamento {
+    color: ${corContrasteClaro};
+    background-color: ${corCategoriaComportamento};
+}
+
 @media(min-width: 800px) {
   .container {
 		padding-right: 2.5rem;

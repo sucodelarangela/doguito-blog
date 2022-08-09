@@ -1,6 +1,7 @@
 // styled components
 // import styled from "styled-components";
 import { Container, TituloPagina, /*Cartao*/ } from "../../assets/css/UI";
+import ListaCategorias from "../../components/ListaCategorias";
 
 import ListaPost from "../../components/ListaPost";
 
@@ -23,6 +24,7 @@ const Home = () => {
       <Container>
         <TituloPagina>Pet notícias</TituloPagina>
       </Container>
+      <ListaCategorias />
       {/* O /posts vem da url do json-server */}
       <ListaPost url={'/posts'} />
     </main>
