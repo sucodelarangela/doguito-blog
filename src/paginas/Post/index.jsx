@@ -15,7 +15,7 @@ const Post = () => {
                 // se a rota não for encontrada, redireciona para a página 404
                 navigate('/404', { replace: true });
             });
-    }, [id]);
+    }, [id, navigate]);
 
     return (
         <main className="container flex--centro">
