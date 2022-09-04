@@ -1,19 +1,12 @@
 <div id='top'>
 
-_For the English version of this README, click [here](#English)._
+# Doguito Blog | Práticas de React Router
 
-# Doguito Blog - Práticas de React Router / React Router Practices
-
-<div align='center'>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <a href='https://reactrouter.com/' target='_blank'><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/></a>
-  <a href='https://styled-components.com/' target='_blank'><img src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/></a>
 </div>
 
-## 🔎 Visão Geral
+_[Read it in English](#English)_
 
-Aplicação desenvolvida ao longo do curso de **React Router** da [Alura](https://www.alura.com.br/curso-online-react-router-navegacao-spa).
+Aplicação desenvolvida ao longo do curso de **React Router** da [Alura](https://www.alura.com.br/).
 
 O curso foca nos conceitos básicos do React Router, além de utilizar [Axios](https://axios-http.com/ptbr/docs/intro) e [json-server](https://www.npmjs.com/package/json-server) para consumo de API. Durante o andamento do curso, optei por usar as versões mais recentes do **React** e do **react-router-dom**, além de refatorar o CSS comum para **styled-components**, como prática adicional.
 
@@ -27,7 +20,30 @@ O curso foca nos conceitos básicos do React Router, além de utilizar [Axios](h
 >
 > Implicações: uso diferente de _BrowserRouter_, _Routes_ e _Route_; descontinuado o uso do hook _useRouteMatch_; substituição do hook _useHistory_ por _useNavigate_; remoção da importação do React onde desnecessário.
 
-## ⚙️ Como usar
+<!-- prettier-ignore -->
+| 🪧 Vitrine.Dev |     |
+| ------------- | --- |
+| ✨ Nome        | **Doguito Blog** |
+| 🏷️ Tecnologias | React, JavaScript, React Router, Styled Components |
+| 🚀 URL         | Veja como rodar localmente em [**⚙️ Como usar**](#howto)                                                          |
+| 🔥 Desafio     | [**Conteúdo do curso**](https://www.alura.com.br/curso-online-react-router-navegacao-spa) |
+
+![](https://raw.githubusercontent.com/sucodelarangela/doguito-blog/02984846c735efdc9792730b9cde3c646f9a5bd1/public/og-image.png#vitrinedev)
+
+## Detalhes do projeto
+
+<div>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <a href='https://reactrouter.com/' target='_blank'><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/></a>
+  <a href='https://styled-components.com/' target='_blank'><img src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/></a>
+</div>
+
+<div id='howto'>
+
+### ⚙️ Como usar
+
+</div>
 
 Para experimentar a aplicação em sua totalidade, você pode roda-lo localmente. Para isso, siga as etapas a seguir:
 
@@ -88,9 +104,11 @@ webpack compiled successfully
 
 _English version_
 
-## 🔎 Overview
+</div>
 
-Application developed during the **React Router** course from [Alura](https://www.alura.com.br/curso-online-react-router-navegacao-spa).
+### 🔎 Overview
+
+Application developed during the **React Router** course from [Alura](https://www.alura.com.br/).
 
 This training courses focuses on React Router basic concepts and also makes use of [Axios](https://axios-http.com/ptbr/docs/intro) and [json-server](https://www.npmjs.com/package/json-server) for API fetching. During this course, I've chosen to use the most recent versions of **React** and **react-router-dom** and have also refactored the standard CSS styles to **styled-components** as additional practice.
 
@@ -104,7 +122,7 @@ This training courses focuses on React Router basic concepts and also makes use 
 >
 > Implications: different use of _BrowserRouter_, _Routes_ e _Route_; discontinuation of _useRouteMatch_ hook; substitution of _useHistory_ hook for _useNavigate_ hook; deleting React imports where not necessary.
 
-## ⚙️ How to use it
+### ⚙️ How to use it
 
 For full access to the app functionalities, you can run it locally on your machine. In order to do so, follow the steps below:
 
@@ -161,4 +179,4 @@ webpack compiled successfully
 
 ---
 
-Developed with 🧡 by [@sucodelarangela](https://angelacaldas.vercel.app) and [Alura](https://www.alura.com.br/)
+Developed with 🧡 by [@sucodelarangela](https://angelacaldas.vercel.app)
