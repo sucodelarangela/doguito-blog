@@ -24,7 +24,7 @@ O curso foca nos conceitos básicos do React Router, além de utilizar [Axios](h
 | 🪧 Vitrine.Dev |     |
 | ------------- | --- |
 | ✨ Nome        | **Doguito Blog** |
-| 🏷️ Tecnologias | React, JavaScript, React Router, Styled Components |
+| 🏷️ Tecnologias | React, JavaScript, React Router, Styled Components, Axios, json-server |
 | 🚀 URL         | Veja como rodar localmente em [**⚙️ Como usar**](#howto)                                                          |
 | 🔥 Desafio     | [**Conteúdo do curso**](https://www.alura.com.br/curso-online-react-router-navegacao-spa) |
 
